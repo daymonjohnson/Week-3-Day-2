@@ -1,0 +1,43 @@
+<Doctype html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Table Finder</h1>
+<h2>Pick Your Table Now</h2>
+<div class=page>
+    <div class="bigcontainer">
+        <div id="1" class="available"><Button ID="Button" runat="server" onclick="addClassByClick(reserved)">1</Button></div>
+        <div id="2" class="available"><Button ID="Button" runat="server" onclick="addClassByClick(reserved)">2</Button></div>
+        <div id="3" class="available"><Button ID="Button" runat="server" onclick="addClassByClick(reserved)">3</Button></div>
+        <div id="4" class="available"><Button ID="Button" runat="server" onclick="addClassByClick(reserved)">4</Button></div>
+        <div id="5" class="available"><Button ID="Button" runat="server" onclick="addClassByClick(reserved)">5</Button></div>
+        <div id="6" class="available"><Button ID="Button" runat="server" onclick="addClassByClick(reserved)">6</Button></div>
+        <div id="7" class="available"><Button ID="Button" runat="server" onclick="addClassByClick(reserved)">7</Button></div>
+        <div id="8" class="available"><Button ID="Button" runat="server" onclick="addClassByClick(reserved)">8</Button></div>
+        <div id="9" class="available"><Button ID="Button" runat="server" onclick="addClassByClick(reserved)">9</Button></div>
+    </div>
+    <div class=form>
+        <div id="show">
+            <fieldset>
+                <P>New Reservation</P>
+                <h4>Table </h4>
+                <input id="name" class="formquestion"type="text" name="field" placeholder="Name"/>
+                <input id="number" class="formquestion"type="text" name="field" placeholder="Number"/>
+                <input id="seats" class="formquestion"type="text" name="field" placeholder="Seats"/>
+                <input class="savebutton" type="button" value="submit">
+                <input class="cancelbutton" type="button" value="cancel">
+            </fieldset>
+        </div>
+    </div>
+</div>
+<div class=details>
+    <p class="reservationDetails">
+    </p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="tablefinder.js"></script>
+</body>    
+</html>

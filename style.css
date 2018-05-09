@@ -1,0 +1,104 @@
+body{
+    background-color: peru;
+}
+h1{
+    color:red;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+button{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    width: 20%;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-top: 33%;
+    background-color: teal;
+}
+.bigcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(172, 167, 167);
+    margin: 0 auto;
+    width: 60%;
+    justify-content: center;
+    justify-items: center;
+}
+.available{
+    display: flex;
+    margin:0 auto;
+    justify-content: center;
+    align-content: space-around;
+    background-color: rgb(228, 224, 224);
+    color: red;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 25%;
+    height: 25%;
+}
+.available:hover{
+    background-color: tomato;
+}
+
+.reserved{
+    background-color: blue;
+    display: flex;
+    margin:0 auto;
+    justify-content: center;
+    align-content: space-around;
+    background-color: rgb(228, 224, 224);
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 25%;
+    height: 25%;
+    border-width: 3px;
+    border-color: green;
+    border-style: solid;
+    cursor: not-allowed;
+}
+.form{
+    width:250px;
+    margin: 0 auto;
+}
+fieldset{
+    display: flex;
+    width: 250 px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+.formquestion{
+    margin-top: 10px;
+}
+p{
+    color: red;
+    font-size: 20px;
+}
+.savebutton{
+    margin: 0 auto;
+    width: 90%;
+    background-color: green;
+    margin-top: 10px;
+}
+.cancelbutton{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    width: 50%;
+}
+.page{
+    display: flex;
+    display: inline;
+}
+
+.tableone{
+  background-color: white;
+  opacity: 50%;
+  font-size: 8px;
+}
